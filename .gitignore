@@ -1,0 +1,5 @@
+.env
+logs/
+blacklists.db
+__pycache__/
+*.pyc
