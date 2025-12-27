@@ -1,5 +1,16 @@
+# Secrets
 .env
-logs/
+
+# Generated files
 blacklists.db
+logs/
+*.log
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# iOS/macOS junk
+.DS_Store
