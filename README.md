@@ -1,17 +1,19 @@
-# Discord Blacklist Bot
+# BlacklistGuard 🛡️
 
-Advanced Discord moderation bot with:
+Advanced Discord moderation bot with local & global blacklists, raid protection, user permissions, and audit logging.
 
-- Local & global blacklists
-- Reasons for every entry
+## Features
+- Local & global blacklist with reasons
 - Auto-ban on join
-- Import from TXT/CSV
-- Export to CSV or JSON
-- Confirmation buttons
+- Raid detection with optional auto-kick
+- User-based permissions
 - Moderation logging
-- Full Docker support
+- Confirmation buttons
+- Docker support
 
-## Quick Start (Docker)
+## Setup
+1. `pip install -r requirements.txt`
+2. Create `.env` with `DISCORD_TOKEN=your_token`
+3. Run `python bot.py`
 
-```bash
-docker compose up -d --build
+Made with ❤️ for safe communities.
